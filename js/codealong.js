@@ -48,7 +48,16 @@ let temperature = Number(prompt('Ange temperatur'));
 if (temperature >= 25 ){
     console.log('Skit de är varmt')
 } else {
-
+    console.log('knas de är chock behagligt ute')
 }
+//samma if elfe sats i en ternary operator.
+let message = temperature > 25 ? console.log('skit de är varmt') : console.log('knas de är chock behagligt ute');
 
+// if else if else 
+temperature2 > 25
+ ? console.log('skit de är varmt')
+ : temperature2 == 0
+ ? console.log('det är väldigt kallt ute idag')
+ : console.log('knas de är chock behagligt ute');
+//
 // Detta är code along
